@@ -1,0 +1,22 @@
+.FatherDrop{
+ 
+  display: flex;
+  flex-direction: row-reverse;
+  
+}
+.dropdown{
+  position: absolute;
+  z-index: 2;
+  width: 20vw;
+  div{
+    display: none;
+    background-color: white;
+    width: 30vw;
+    height: 100vh;
+  }
+}
+.lazimliduyme{
+  width: 30px;
+  height: 30px;
+  background-color: red;
+}
